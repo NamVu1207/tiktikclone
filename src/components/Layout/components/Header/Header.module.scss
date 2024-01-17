@@ -1,0 +1,67 @@
+.wrapper {
+    height: var(--default-layout-header-height);
+    box-shadow: 0px 1px 1px rgba(22, 24, 35, 0.12);
+    justify-content: center;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.inner {
+    height: 100%;
+    width: 100%;
+    padding: 0px 24px 0px 16px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.headerLeftContainer {
+    width: 300px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+}
+.headerCenterContainer {
+    width: 500px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+}
+
+.headerRightContainer {
+    display: flex;
+    align-items: center;
+}
+
+.actionBtn {
+    font-size: 2.2rem;
+    background-color: transparent;
+    padding: 4px 0px 4px 12px;
+    cursor: pointer;
+    margin-left: 7px;
+}
+
+.imgMess {
+    height: 2.8rem;
+    width: 2.8rem;
+}
+
+.moreBtn {
+    width: 28px;
+    font-size: 2rem;
+    padding: 0px 4px;
+    margin-left: 16px;
+    background-color: transparent;
+}
+
+.userAvatar {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 19px;
+    cursor: pointer;
+}

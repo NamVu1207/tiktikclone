@@ -1,0 +1,22 @@
+.wrapper{
+    position: relative;
+    margin-bottom: 8px;
+}
+.menuItem {
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 10px 8px;
+
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.03);
+    }
+
+    &.active {
+        color: var(--primary);
+    }
+}
+.titleItem {
+    margin-left: 12px;
+}

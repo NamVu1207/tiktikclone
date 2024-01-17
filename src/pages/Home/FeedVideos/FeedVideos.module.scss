@@ -1,0 +1,118 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.videoItem{
+    display: flex;
+    position: relative;
+    padding: 20px 0px;
+    max-width: 692px;
+    &::after{
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        display: block;
+        width: 100%;
+        height: 1px;
+        background-color: rgba(22, 24, 35, 0.24);
+    }
+}
+.leftContent{
+}
+
+.Avatar{
+    width: 56px;
+    height: 56px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.rightContent{
+    margin-left: 12px;
+    width: 624px;
+    position: relative;
+
+}
+.header{
+    width: 510px;
+    margin-right: 114px;
+}
+.userInfo{
+    display: flex;
+    align-items: center;
+    
+}
+.nickname{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-right: 4px;
+}
+.fullname{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: rgba(22, 24, 35);
+}
+.title{
+    width: 100%;
+    color: rgba(22, 24, 35);
+    font-size: 1.6rem;
+}
+.song{
+    margin-bottom: 12px;
+    cursor: pointer;
+    &:hover{
+        .songName{
+            text-decoration: underline;
+        }
+    }
+}
+.songIcon{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+}
+.songName{
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.btnFollow{
+    position: absolute;
+    top: 8px;
+    right: 0px;
+    width: 96px;
+    height: 36px;
+    border-color: var(--primary);
+    color: var(--primary);
+}
+.content{
+    display: flex;
+    position: relative;
+
+}
+.Video{
+    height: 600px;
+    width: 336px;
+    margin-right: 20px;
+
+}
+.videoInfo{
+    width: 100%;
+    height: 100%;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0px;
+    left: 356px;
+}
+
+.check {
+    margin-right: 4px;
+    font-size: 1.4rem;
+    color: rgb(32, 213, 236);
+}
