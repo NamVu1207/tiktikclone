@@ -6,7 +6,7 @@ import Profile from '~/pages/Profile';
 import Upload from '~/pages/Upload';
 
 const PublicRoutes = [
-    { path: '/', component: Home },
+    { path: '/tiktikclone/', component: Home },
     { path: '/Following', component: Following },
     { path: '/:nickname', component: Profile },
     { path: '/Upload', component: Upload, layout: HeaderOnly },
