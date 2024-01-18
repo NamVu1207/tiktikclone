@@ -7,9 +7,9 @@ import Upload from '~/pages/Upload';
 
 const PublicRoutes = [
     { path: '/tiktikclone/', component: Home },
-    { path: '/Following', component: Following },
-    { path: '/:nickname', component: Profile },
-    { path: '/Upload', component: Upload, layout: HeaderOnly },
+    { path: '/tiktikclone/Following', component: Following },
+    { path: '/tiktikclone/:nickname', component: Profile },
+    { path: '/tiktikclone/Upload', component: Upload, layout: HeaderOnly },
 ];
 
 const privateRoutes = [];
